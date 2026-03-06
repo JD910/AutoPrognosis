@@ -25,5 +25,16 @@ This package contains the code used to build and evaluate the survival risk mode
 ## Customization
 - To adjust the search space, edit the `base_*` lists in `main.py` (risk estimators, imputers, feature scaling, feature selection).
 
+## Note
+- There are two `Unzip_the_file.zip` files, located in the tests and src/autoprognosis folders respectively.
+- After you git all project files, first unzip these two compressed files to their corresponding folders.
+- `pbmf-main.zip` is the comparison model PBMF (Cancer Cell, 2025). Unzip and run the comparison model.
+- `NSCLC_ICI_OA_3000.csv` is a dataset (anonymized) containing 3000 NSCLC patients, used for run AutoPrognosis and PBMF.
+
+## Citation
+If you use this code or data in your research, please cite:
+
+Xu et al., A Novel and Interpretable Automated Machine Learning Approach for Prognostic Prediction in Immunotherapy-Treated Non-Small Cell Lung Cancer: A Global Multi-Center Cohort Study.
+
 ## License
 Apache 2.0 (inherits upstream AutoPrognosis license).
